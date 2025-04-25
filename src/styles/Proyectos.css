@@ -1,0 +1,45 @@
+.projects {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .project-card {
+    background: #1a1a1a;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card-buttons a {
+    margin: 0.5rem;
+    background: #00bfff;
+    color: black;
+    padding: 0.3rem 0.8rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  @media (min-width: 768px) {
+
+    .project-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .project-card {
+      width: 40%;
+      margin: 0 20px;
+    }
+  }
