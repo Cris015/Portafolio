@@ -7,7 +7,7 @@ import "../styles/Formulario.css";
 import "../styles/Footer.css";
 import { FaReact, FaHtml5, FaCss3Alt, FaGithub } from "react-icons/fa";
 import miFoto from "../img/miFoto.jpeg";
-import encriptador from "../img/encriptador.png";
+import encriptador from "../img/Encriptador.png";
 import play from "../img/Arula-play.png";
 import { motion } from "framer-motion";
 import Header from "./Header";
